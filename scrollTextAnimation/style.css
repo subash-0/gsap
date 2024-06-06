@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: #111;
+}
+
+#page1 , #page2, #page3{
+    height: 100%;
+    width: 100%;
+  
+}
+#move{
+    background-color: lawngreen;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    gap: 20px;
+    transform: rotate(20deg);
+}
+.marque img{
+  height: 30px;
+}
+.marque{
+flex-shrink: 0;
+display: flex;
+gap: 20px;
+align-items: center;
+padding: 3px 0;
+transform: translateX(-100%);
+}

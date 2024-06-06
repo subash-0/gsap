@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+#main{
+ 
+    padding: 40px 50px;
+    height: 100%;
+    width: 100%;
+    background-image: url('https://images.pexels.com/photos/18495/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-position: center;
+    background-size: cover;
+
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+   
+}
+#nav i{
+    cursor: pointer;
+}
+#menuItem{
+    display: flex;
+    gap: 10px;
+    align-items: start;
+    flex-direction: column;
+    width: 20%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    padding: 100px 50px;
+    top: 0;
+    right: -20%;
+    backdrop-filter: blur(5px);
+}
+#menuItem #close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: white;
+    padding: 5px;
+    border-radius: 50%;
+}
+.menu{
+    display: flex;
+   align-items: center;
+   justify-content: start;
+   gap: 10px;
+   font-size: 20px;
+   padding: 10px 0;
+ 
+   
+}
+.menu:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 100%;
+    color: white;
+    padding-left: 5px;
+    cursor: pointer;
+}
